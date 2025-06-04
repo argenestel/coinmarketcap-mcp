@@ -1103,5 +1103,5 @@ await stdioServer.connect(transport)
 
 // Streamable HTTP Server
 const { app } = createStatelessServer(createServer)
-const PORT = process.env.PORT || 3000
-app.listen(PORT)
+const PORT =  8888
+  app.listen(PORT)
